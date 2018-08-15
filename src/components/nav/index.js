@@ -39,8 +39,8 @@ class Nav extends Component {
           <li className={toggleClass} onClick={this.clickTracker}>Company
             <ul>
               <a href='/company'><li>Team</li></a>
-              <a href='/company'><li>Partners</li></a>
               <a href='/company'><li>History</li></a>
+              <a href='/company'><li>Partners</li></a>
             </ul>
           </li>
         </ul>
