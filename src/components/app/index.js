@@ -7,8 +7,6 @@ import Products from '../products'
 import Services from '../services'
 import Company from '../company'
 import KeyIndustries from '../key-industries'
-import CompanyHistory from '../history'
-
 
 class App extends Component {
   render() {
