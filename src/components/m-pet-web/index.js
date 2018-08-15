@@ -3,7 +3,7 @@ import React, {Component} from 'react'
 class MpetWeb extends Component {
   render() {
     return (
-      <div>
+      <div className='div-container'>
         <h1>M-Pet.Web</h1>
         <p>Web-based solution, one of the biggest in-demand options for business' today. M-PET.WEB will run over an internet connection (either hosted by the client, or through our server) that links into the same database as the desktop. This gives you the advantage of letting employees use a web-based system for many of the key features of our system without needing a full install on that workstation.</p>
         <h3>Clients can:</h3>

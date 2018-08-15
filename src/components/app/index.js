@@ -1,9 +1,10 @@
-import React, {Component} from 'react'
+import React, { Component } from 'react'
+import Staff from '../staff'
 
 class App extends Component {
   render() {
     return (
-      <h1>You're Here!</h1>
+      <Staff />
     )
   }
 }
