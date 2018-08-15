@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import {BrowserRouter, Route} from 'react-router-dom'
+import Header from '../header'
 import Nav from '../nav'
 import Landing from '../landing'
 import Products from '../products'
@@ -13,6 +14,7 @@ class App extends Component {
   render() {
     return (
       <div>
+        <Header />
         <Nav />
         <BrowserRouter>
           <div>
