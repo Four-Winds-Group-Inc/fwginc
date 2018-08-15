@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class ItTasks extends Component {
   render() {
     return (
-      <div class='div-container'>
+      <div className='div-container'>
         <h1>IT Tasks</h1>
         <ul>
           <li>Evaluate and recommend network, workstation and server requirements</li>
