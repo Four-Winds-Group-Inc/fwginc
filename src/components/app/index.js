@@ -1,10 +1,20 @@
 import React, { Component } from 'react'
-import Staff from '../staff'
+import {BrowserRouter, Route} from 'react-router-dom'
+import Nav from '../nav'
+import Landing from '../landing'
 
 class App extends Component {
   render() {
     return (
-      <Staff />
+      <div>
+        <Nav />
+        <BrowserRouter>
+          <div>
+            <Route exact path="/" Component={Landing}/>
+          </div>
+        </BrowserRouter>
+      </div>
+
     )
   }
 }
