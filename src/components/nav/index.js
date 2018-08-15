@@ -19,30 +19,30 @@ class Nav extends Component {
         <ul>
           <li className={toggleClass} onClick={this.clickTracker}>Services
             <ul>
-              <li>M-PET Hosted</li>
-              <li>Turnkey</li>
-              <li>Custom Programming</li>
+              <a href='/services'><li>M-PET Hosted</li></a>
+              <a href='/services'><li>Turnkey</li></a>
+              <a href='/services'><li>Custom Programming</li></a>
             </ul>
           </li>
           <li className={toggleClass} onClick={this.clickTracker}>Products
             <ul>
-              <li>M-PET.NET</li>
-              <li>M-PET.WEB</li>
+              <a href='/products'><li>M-PET.NET</li></a>
+              <a href='/products'><li>M-PET.WEB</li></a>
             </ul>
           </li>
           <li className={toggleClass} onClick={this.clickTracker}>Key Industries
             <ul>
-              <li>Transportation</li>
-              <li>Hospitality</li>
+              <a href='/key-industries'><li>Transportation</li></a>
+              <a href='/key-industries'><li>Hospitality</li></a>
             </ul>
           </li>
           <li className={toggleClass} onClick={this.clickTracker}>Company
             <ul>
-              <li>Team</li>
-              <li>Partners</li>
+              <a href='/company'><li>Team</li></a>
+              <a href='/company'><li>Partners</li></a>
+              <a href='/company'><li>History</li></a>
             </ul>
           </li>
-          <li>History</li>
         </ul>
       </nav>
     )
