@@ -10,7 +10,6 @@ class Nav extends Component {
 
   clickTracker = () => {
     this.setState({clicked: !this.state.clicked})
-    console.log(this.state)
   }
 
   render() {
