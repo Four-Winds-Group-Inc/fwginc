@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class Maintenance extends Component {
   render() {
     return (
-      <div class='div-container'>
+      <div className='div-container'>
         <h1>Maintenance Information Tasks</h1>
         <ul>
           <li>Identify all assets that will become part of the asset database</li>

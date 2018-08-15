@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class Turnkey extends Component {
   render() {
     return (
-      <div class='div-container'>
+      <div className='div-container'>
         <h1>Turnkey Implementation</h1>
         <p>With our talented staff of IT and program developers, coupled with our hands-on maintenance and project management expertise, Four Winds Group is able to deliver any type of solution for those organizations wanting to get their new M-PET.NET system operational quickly.</p>
 

@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class ProjectManagement extends Component {
   render() {
     return (
-      <div class='div-container'>
+      <div className='div-container'>
         <h1>Project Management</h1>
         <ul>
           <li>Single Project Manager assignment</li>
