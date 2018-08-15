@@ -5,6 +5,7 @@ class Nav extends Component {
     super(props)
     this.state = {
       clicked: false,
+      turnKeyClicked: false,
     }
   }
 
@@ -12,16 +13,26 @@ class Nav extends Component {
     this.setState({clicked: !this.state.clicked})
   }
 
+  turnKeyClickTracker = () => {
+    this.setState({clicked: !this.state.turnKeyClicked})
+  }
+
   render() {
     let toggleClass = this.state.clicked ? 'clicked' : ''
+    let toggleKeyClass = this.state.turnKeyClicked ? 'turnKeyClicked' : ''
     return (
       <nav>
         <ul>
           <li className={toggleClass} onClick={this.clickTracker}>Services
             <ul>
               <a href='/services'><li>M-PET Hosted</li></a>
-              <a href='/services'><li>Turnkey</li></a>
               <a href='/services'><li>Custom Programming</li></a>
+              <li className={toggleKeyClass} onClick={this.turnKeyClickTracker}>Turnkey
+                <a href='/services/turnkey'><li>About</li></a>
+                <a href='/services/turnkey'><li>Project Management</li></a>
+                <a href='/services/turnkey'><li>IT Tasks</li></a>
+                <a href='/services/turnkey'><li>Maintenance</li></a>
+              </li>
             </ul>
           </li>
           <li className={toggleClass} onClick={this.clickTracker}>Products

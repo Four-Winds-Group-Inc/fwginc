@@ -7,6 +7,7 @@ import Products from '../products'
 import Services from '../services'
 import Company from '../company'
 import KeyIndustries from '../key-industries'
+import TurnKey from '../services/turnkey'
 
 class App extends Component {
   render() {
@@ -21,6 +22,7 @@ class App extends Component {
             <Route exact path='/services' component={Services} />
             <Route exact path='/company' component={Company} />
             <Route exact path='/key-industries' component={KeyIndustries} />
+            <Route exact path='/services/turnkey' component={TurnKey} />
           </div>
         </BrowserRouter>
       </div>
