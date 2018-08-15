@@ -9,7 +9,7 @@ class MpetNet extends Component {
         <ul>
           <li>Assets - create, modify, and track any and all of your business' assets.</li>
           <li>Personnel - track all of your personnel through one easy and concise screen.</li>
-          <li>Preventative Maintenance (PM) - one of the biggest areas of focus of any maintenance division. A well orchestrated and followed preventative maintenance plan is invaluable down the road, saving work hours, materials, and money.</li>
+          <li>Preventative Maintenance - one of the biggest areas of focus of any maintenance division. A well orchestrated and followed preventative maintenance plan is invaluable down the road, saving work hours, materials, and money.</li>
           <li>Jobs - handle anything related to a particular Job all on one, easy to follow screen. Track and update Jobs real-time, as work is completed on them.</li>
           <li>Materials / Parts - stay on top of needed spares or material to plan and complete jobs.</li>
           <li>Production - keep track of everything from efficiency and downtime to repair time and breakdown response time quickly and easily.</li>
