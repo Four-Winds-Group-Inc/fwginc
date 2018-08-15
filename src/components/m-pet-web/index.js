@@ -5,8 +5,10 @@ class MpetWeb extends Component {
     return (
       <div>
         <h1>M-Pet.Web</h1>
-        <p>Web-based solution; one of the biggest in-demand options for business' today. That's where M-PET.WEB comes in. This application will run over an internet connection (either hosted by the client, or through our server) that links into the same database as the desktop. This gives you the advantage of letting employees use a Web-based system for many of the key features of our system without needing a full install on that workstation.</p>
+        <p>Web-based solution; one of the biggest in-demand options for business' today. M-PET.WEB will run over an internet connection (either hosted by the client, or through our server) that links into the same database as the desktop. This gives you the advantage of letting employees use a Web-based system for many of the key features of our system without needing a full install on that workstation.</p>
+
         <h3>Users can:</h3>
+        
         <ul>
           <li>Submit a new job request with the same look and feel of the desktop application.</li>
           <li>Look up job requests and planned jobs with the ability to view, edit, and delete them.</li>
