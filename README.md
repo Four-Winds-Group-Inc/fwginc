@@ -11,13 +11,8 @@ In your terminal:
 - npm start
 - Your application should now be running on http://localhost:1234
 
-#### Progress notes as of Tuesday, August 14th, 2018
+#### Progress notes as of Wednesday, August 15th, 2018
 
-- Working on basic scaffolding of components.
-- Browser router not implemented currently, application will build but no views have been linked to App component.
-- Currently editing content for the purpose of readability as well as typos.
-
-
-
-
-
+- Browser router implemented, navigation possible.
+- TODO: Hook up last few components to main navigation.
+- TODO: Research and plan basic page layout and sass | scss plan.
