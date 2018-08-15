@@ -14,5 +14,4 @@ In your terminal:
 #### Progress notes as of Wednesday, August 15th, 2018
 
 - Browser router implemented, navigation possible.
-- TODO: Hook up last few components to main navigation.
 - TODO: Research and plan basic page layout and sass | scss plan.
