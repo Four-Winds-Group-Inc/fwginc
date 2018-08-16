@@ -7,7 +7,7 @@ class Header extends Component {
     return (
       <div>
         <a href='/'><img src={fwgLogo}/></a>
-        <h1>Four Winds Group Inc.</h1>
+        <h1>Four Winds Group</h1>
       </div>
 
     )
