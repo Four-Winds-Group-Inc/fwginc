@@ -8,6 +8,7 @@ import Services from '../services'
 import Company from '../company'
 import KeyIndustries from '../key-industries'
 import TurnKey from '../services/turnkey'
+import '../../styles/main.scss'
 
 class App extends Component {
   render() {
