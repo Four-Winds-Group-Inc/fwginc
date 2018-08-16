@@ -23,37 +23,34 @@ class Nav extends Component {
     return (
       <nav>
         <ul>
-          <li className={toggleClass} onClick={this.clickTracker}>Services
-            <ul>
-              <a href='/services'><li>M-PET Hosted</li></a>
-              <a href='/services'><li>Custom Programming</li></a>
-              <li className={toggleKeyClass} onClick={this.turnKeyClickTracker}>Turnkey
-                <a href='/services/turnkey'><li>About</li></a>
-                <a href='/services/turnkey'><li>Project Management</li></a>
-                <a href='/services/turnkey'><li>IT Tasks</li></a>
-                <a href='/services/turnkey'><li>Maintenance</li></a>
-              </li>
-            </ul>
-          </li>
-          <li className={toggleClass} onClick={this.clickTracker}>Products
-            <ul>
-              <a href='/products'><li>M-PET.NET</li></a>
-              <a href='/products'><li>M-PET.WEB</li></a>
-            </ul>
-          </li>
-          <li className={toggleClass} onClick={this.clickTracker}>Key Industries
-            <ul>
-              <a href='/key-industries'><li>Transportation</li></a>
-              <a href='/key-industries'><li>Hospitality</li></a>
-            </ul>
-          </li>
-          <li className={toggleClass} onClick={this.clickTracker}>Company
-            <ul>
-              <a href='/company'><li>Team</li></a>
-              <a href='/company'><li>History</li></a>
-              <a href='/company'><li>Partners</li></a>
-            </ul>
-          </li>
+          <li className={toggleClass} onClick={this.clickTracker}>Services</li>
+          <ul>
+            <a href='/services'><li>M-PET Hosted</li></a>
+            <a href='/services'><li>Custom Programming</li></a>
+          </ul>
+          <li className={toggleKeyClass} onClick={this.turnKeyClickTracker}>Turnkey</li>
+          <ul>
+            <a href='/services/turnkey'><li>About</li></a>
+            <a href='/services/turnkey'><li>Project Management</li></a>
+            <a href='/services/turnkey'><li>IT Tasks</li></a>
+            <a href='/services/turnkey'><li>Maintenance</li></a>
+          </ul>
+          <li className={toggleClass} onClick={this.clickTracker}>Products</li>
+          <ul>
+            <a href='/products'><li>M-PET.NET</li></a>
+            <a href='/products'><li>M-PET.WEB</li></a>
+          </ul>
+          <li className={toggleClass} onClick={this.clickTracker}>Key Industries</li>
+          <ul>
+            <a href='/key-industries'><li>Transportation</li></a>
+            <a href='/key-industries'><li>Hospitality</li></a>
+          </ul>
+          <li className={toggleClass} onClick={this.clickTracker}>Company</li>
+          <ul>
+            <a href='/company'><li>Team</li></a>
+            <a href='/company'><li>History</li></a>
+            <a href='/company'><li>Partners</li></a>
+          </ul>
         </ul>
       </nav>
     )
