@@ -1,0 +1,8 @@
+nav {
+  display: none;
+}
+
+.hamburgeropen + nav {
+  display: block;
+  background: rgb(165, 165, 165);
+}
