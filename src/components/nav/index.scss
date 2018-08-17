@@ -1,0 +1,9 @@
+.nested_ul, .nested_ul,.nested_ul, .nested_ul, .nested_ul {
+  display: none;
+}
+
+li { 
+  &.nested_ulclicked {
+    display: block;
+  }
+}
