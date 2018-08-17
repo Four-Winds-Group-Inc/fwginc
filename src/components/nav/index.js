@@ -8,8 +8,6 @@ class Nav extends Component {
     let activeClass = document.querySelector('.active')
     if(activeClass)
       activeClass.classList.remove('active')
-    let target = e.target
-    let targetEl = e.target.innerHTML
     e.target.classList.toggle('active')
   }
 
