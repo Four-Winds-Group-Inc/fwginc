@@ -1,0 +1,11 @@
+ul {
+    display: none;
+}
+
+.active + ul {
+    display: block;
+}
+
+li:target + ul {
+    background: purple;
+}
