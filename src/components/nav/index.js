@@ -8,7 +8,8 @@ class Nav extends Component {
     let activeClass = document.querySelector('.active')
     if(activeClass)
       activeClass.classList.remove('active')
-    e.target.classList.toggle('active')
+    if(!activeClass)
+      e.target.classList.toggle('active')
   }
 
   render() {
