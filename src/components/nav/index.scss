@@ -1,9 +1,11 @@
-.nested_ul, .nested_ul,.nested_ul, .nested_ul, .nested_ul {
-  display: none;
+ul {
+    display: none;
 }
 
-li { 
-  &.nested_ulclicked {
+.active + ul {
     display: block;
-  }
+}
+
+li:target + ul {
+    background: purple;
 }
