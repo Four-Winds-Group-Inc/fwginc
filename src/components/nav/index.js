@@ -1,26 +1,62 @@
 import React, { Component } from 'react'
 import './index.scss'
 
-let item = [
-  { id: 0, name: 'Products', item: [{ id: 2, name: 'M-PET.NET' }, { id: 3, name: 'M-PET.WEB' }]},
-  { id: 4, name: 'Services', item: [{ id: 5, name: 'M-PET Hosted' }, { id: 6, name: 'Custom Programming' }]},
-  { id: 7, name: 'TurnKey', item: [{ id: 8, name: 'About' }, { id: 9, name: 'Project Management' }, { id: 10, name: 'IT Tasks' }, { id: 11, name: 'Maintenance' }]},
-  { id: 12, name: 'Key Industries', item: [{ id: 13, name: 'Transportation' }, { id: 14, name: 'Hospitality' }]},
-  { id: 15, name: 'Company', item: ['Team', 'History']},
+let items = [
+  { id: 0, name: 'Products', items: [{ id: 2, name: 'M-PET.NET' }, { id: 3, name: 'M-PET.WEB' }]},
+  { id: 4, name: 'Services', items: [{ id: 5, name: 'M-PET Hosted' }, { id: 6, name: 'Custom Programming' }]},
+  { id: 7, name: 'TurnKey', items: [{ id: 8, name: 'About' }, { id: 9, name: 'Project Management' }, { id: 10, name: 'IT Tasks' }, { id: 11, name: 'Maintenance' }]},
+  { id: 12, name: 'Key Industries', items: [{ id: 13, name: 'Transportation' }, { id: 14, name: 'Hospitality' }]},
+  { id: 15, name: 'Company', items: ['Team', 'History']},
 ]
 
-class Nav extends Component {
+class NavContainer extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {active: false}
+  }
+
+  clickHandler = ( e ) => {
+    e.preventDefault()
+    if ( this.state.active ) {
+      this.setState( { active: false } )
+      e.target.className = this.state.active
+    } else {
+      let activeClass = document.querySelector( '.true' )
+      if ( activeClass )
+        activeClass.classList.remove( 'true' )
+      this.setState( { active: true } )
+      e.target.className = this.state.active
+    }
+  }
+
   render() {
-    let navItems = item.map((items) => <navItems node={items} children={items.item} key={items.id}/>)
-    console.log(navItems)
+    let nodes = items.map((item) => <li node={item} children={item.items.map(x => x.name)} key={item.id}/>)
+    console.log(nodes[0])
     return (
       <div>
+        <span onClick={this.clickHandler}>{nodes[0].props.node.name}</span>
         <ul className='nav'>
-          {navItems}
+          {nodes[0].props.children}
+        </ul>
+        <span onClick={this.clickHandler}>{nodes[1].props.node.name}</span>
+        <ul className='nav'>
+          {nodes[1].props.children}
+        </ul>
+        <span onClick={this.clickHandler}>{nodes[2].props.node.name}</span>
+        <ul className='nav'>
+          {nodes[2].props.children}
+        </ul>
+        <span onClick={this.clickHandler}>{nodes[3].props.node.name}</span>
+        <ul className='nav'>
+          {nodes[3].props.children}
+        </ul>
+        <span onClick={this.clickHandler}>{nodes[4].props.node.name}</span>
+        <ul className='nav'>
+          {nodes[4].props.children}
         </ul>
       </div>
     )
   }
 }
 
-export default Nav
+export default NavContainer
