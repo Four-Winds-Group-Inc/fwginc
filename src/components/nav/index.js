@@ -1,59 +1,24 @@
 import React, { Component } from 'react'
 import './index.scss'
 
-let initialArray = [
-  [ 'Products', 'M-PET.NET', 'M-PET.WEB' ],
-  [ 'Services', 'M-PET Hosted', 'Custom Programming' ],
-  [ 'Turnkey', 'About', 'Project Management', 'IT Tasks', 'Maintenance' ],
-  [ 'Key Industries', 'Transportation', 'Hospitality' ],
-  [ 'Company', 'Team', 'History' ],
+let item = [
+  { id: 0, name: 'Products', item: [{ id: 2, name: 'M-PET.NET' }, { id: 3, name: 'M-PET.WEB' }]},
+  { id: 4, name: 'Services', item: [{ id: 5, name: 'M-PET Hosted' }, { id: 6, name: 'Custom Programming' }]},
+  { id: 7, name: 'TurnKey', item: [{ id: 8, name: 'About' }, { id: 9, name: 'Project Management' }, { id: 10, name: 'IT Tasks' }, { id: 11, name: 'Maintenance' }]},
+  { id: 12, name: 'Key Industries', item: [{ id: 13, name: 'Transportation' }, { id: 14, name: 'Hospitality' }]},
+  { id: 15, name: 'Company', item: ['Team', 'History']},
 ]
 
 class Nav extends Component {
-  constructor( props ) {
-    super( props )
-    this.state = {
-      initialState: initialArray,
-      active: false,
-    }
-  }
-
-  clickHandler = ( e ) => {
-    e.preventDefault()
-    if ( this.state.active ) {
-      this.setState( { active: false } )
-      e.target.className = this.state.active
-    } else {
-      let activeClass = document.querySelector( '.true' )
-      if ( activeClass )
-        activeClass.classList.remove( 'true' )
-      this.setState( { active: true } )
-      e.target.className = this.state.active
-    }
-  }
-
-  componentWillMount() {
-    let newStateArray = []
-    for ( let i = 0; i < initialArray.length; i++ ) {
-      for ( let j = 0; j < initialArray[ i ].length; j++ ) {
-        let newStateLi = initialArray[ i ][ j ]
-        let newStateUl = initialArray[ i ]
-
-        if ( j === 0 ) {
-          newStateArray.push( <li onClick={this.clickHandler}>{newStateLi}</li> )
-        } else {
-          newStateArray.push( <ul>{newStateUl}</ul> )
-        }
-      }
-    }
-    this.setState( { initialState: newStateArray } )
-  }
-
   render() {
+    let navItems = item.map((items) => <navItems node={items} children={items.item} key={items.id}/>)
+    console.log(navItems)
     return (
-      <nav>
-        {this.state.initialState}
-      </nav>
+      <div>
+        <ul className='nav'>
+          {navItems}
+        </ul>
+      </div>
     )
   }
 }
