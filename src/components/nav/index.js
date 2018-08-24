@@ -30,8 +30,9 @@ class NavContainer extends Component {
   }
 
   render() {
+
     let nodes = items.map((item) => <li node={item} children={item.items.map(x => x.name)} key={item.id}/>)
-    console.log(nodes[0])
+
     return (
       <div>
         <span onClick={this.clickHandler}>{nodes[0].props.node.name}</span>
