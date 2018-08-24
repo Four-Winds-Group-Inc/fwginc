@@ -1,21 +1,18 @@
 import React, { Component } from 'react'
 import './index.scss'
 
-let initialArray = [
-  [ 'Products', 'M-PET.NET', 'M-PET.WEB' ],
-  [ 'Services', 'M-PET Hosted', 'Custom Programming' ],
-  [ 'Turnkey', 'About', 'Project Management', 'IT Tasks', 'Maintenance' ],
-  [ 'Key Industries', 'Transportation', 'Hospitality' ],
-  [ 'Company', 'Team', 'History' ],
+let items = [
+  { id: 0, name: 'Products', items: [{ id: 2, name: 'M-PET.NET' }, { id: 3, name: 'M-PET.WEB' }]},
+  { id: 4, name: 'Services', items: [{ id: 5, name: 'M-PET Hosted' }, { id: 6, name: 'Custom Programming' }]},
+  { id: 7, name: 'TurnKey', items: [{ id: 8, name: 'About' }, { id: 9, name: 'Project Management' }, { id: 10, name: 'IT Tasks' }, { id: 11, name: 'Maintenance' }]},
+  { id: 12, name: 'Key Industries', items: [{ id: 13, name: 'Transportation' }, { id: 14, name: 'Hospitality' }]},
+  { id: 15, name: 'Company', items: ['Team', 'History']},
 ]
 
-class Nav extends Component {
-  constructor( props ) {
-    super( props )
-    this.state = {
-      initialState: initialArray,
-      active: false,
-    }
+class NavContainer extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {active: false}
   }
 
   clickHandler = ( e ) => {
@@ -32,30 +29,35 @@ class Nav extends Component {
     }
   }
 
-  componentWillMount() {
-    let newStateArray = []
-    for ( let i = 0; i < initialArray.length; i++ ) {
-      for ( let j = 0; j < initialArray[ i ].length; j++ ) {
-        let newStateLi = initialArray[ i ][ j ]
-        let newStateUl = initialArray[ i ]
-
-        if ( j === 0 ) {
-          newStateArray.push( <li onClick={this.clickHandler}>{newStateLi}</li> )
-        } else {
-          newStateArray.push( <ul>{newStateUl}</ul> )
-        }
-      }
-    }
-    this.setState( { initialState: newStateArray } )
-  }
-
   render() {
+
+    let nodes = items.map((item) => <li node={item} children={item.items.map(x => x.name)} key={item.id}/>)
+
     return (
-      <nav>
-        {this.state.initialState}
-      </nav>
+      <div>
+        <span onClick={this.clickHandler}>{nodes[0].props.node.name}</span>
+        <ul className='nav'>
+          {nodes[0].props.children}
+        </ul>
+        <span onClick={this.clickHandler}>{nodes[1].props.node.name}</span>
+        <ul className='nav'>
+          {nodes[1].props.children}
+        </ul>
+        <span onClick={this.clickHandler}>{nodes[2].props.node.name}</span>
+        <ul className='nav'>
+          {nodes[2].props.children}
+        </ul>
+        <span onClick={this.clickHandler}>{nodes[3].props.node.name}</span>
+        <ul className='nav'>
+          {nodes[3].props.children}
+        </ul>
+        <span onClick={this.clickHandler}>{nodes[4].props.node.name}</span>
+        <ul className='nav'>
+          {nodes[4].props.children}
+        </ul>
+      </div>
     )
   }
 }
 
-export default Nav
+export default NavContainer
