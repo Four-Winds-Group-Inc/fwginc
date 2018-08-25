@@ -1,3 +1,11 @@
+nav {
+  display: none;
+}
+
+.hamburgeropen ~ nav {
+  display: block;
+}
+
 html span {
   display: block !important;
 }
