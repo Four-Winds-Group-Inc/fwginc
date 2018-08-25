@@ -1,10 +1,13 @@
 @import 'vars';
 
 .hamburger, .hamburgeropen {
-  width: 60px;
-  height: 45px;
-  position: relative;
-  margin: 50px auto;
+  width: 2rem;
+  height: 1.8rem;
+  position: absolute;
+  margin: 0 auto;
+  bottom: 2rem;
+  left: 0;
+  right: 0;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -o-transform: rotate(0deg);
@@ -19,10 +22,10 @@
 .hamburger span, .hamburgeropen span {
   display: block;
   position: absolute;
-  height: 9px;
+  height: .35rem;
   width: 100%;
   background: #d3531a;
-  border-radius: 9px;
+  border-radius: .5625rem;
   opacity: 1;
   left: 0;
   -webkit-transform: rotate(0deg);
@@ -36,7 +39,7 @@
 }
 
 .hamburger span:nth-child(1), .hamburgeropen span:nth-child(1) {
-  top: 0px;
+  top: 0;
   -webkit-transform-origin: left center;
   -moz-transform-origin: left center;
   -o-transform-origin: left center;
@@ -44,7 +47,7 @@
 }
 
 .hamburger span:nth-child(2), .hamburgeropen span:nth-child(2) {
-  top: 18px;
+  top: .7rem;
   -webkit-transform-origin: left center;
   -moz-transform-origin: left center;
   -o-transform-origin: left center;
@@ -52,7 +55,7 @@
 }
 
 .hamburger span:nth-child(3), .hamburgeropen span:nth-child(3) {
-  top: 36px;
+  top: 1.4rem;
   -webkit-transform-origin: left center;
   -moz-transform-origin: left center;
   -o-transform-origin: left center;
@@ -64,8 +67,8 @@
   -moz-transform: rotate(45deg);
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
-  top: -3px;
-  left: 8px;
+  top: 0rem;
+  left: 0;
 }
 
 .hamburgeropen span:nth-child(2) {
@@ -78,6 +81,6 @@
   -moz-transform: rotate(-45deg);
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
-  top: 39px;
-  left: 8px;
+  top: 1.4rem;
+  left: 0;
 }
