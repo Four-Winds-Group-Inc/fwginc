@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
-import fwgLogo from '../../assets/fwglogo_b.svg'
+import fwgLogo from '../../assets/fwg_logo.svg'
 import './index.scss'
 
 class Header extends Component {
   render() {
     return (
-      <div>
+      <header>
         <a href='/'><img src={fwgLogo}/></a>
-      </div>
+      </header>
 
     )
   }
