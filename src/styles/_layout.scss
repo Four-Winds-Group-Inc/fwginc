@@ -1,45 +1,43 @@
 @import 'vars';
 
 .hamburger, .hamburgeropen {
-  width: 2rem;
-  height: 1.8rem;
+  width: 1.5rem;
+  height: 1.5rem;
   position: absolute;
-  margin: 0 auto;
-  bottom: 2rem;
   left: 0;
   right: 0;
+  bottom: 1rem;
+  margin: 0 auto;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -o-transform: rotate(0deg);
   transform: rotate(0deg);
-  -webkit-transition: .5s ease-in-out;
-  -moz-transition: .5s ease-in-out;
-  -o-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  -webkit-transition: .15s ease-in-out;
+  -moz-transition: .15s ease-in-out;
+  -o-transition: .15s ease-in-out;
+  transition: .15s ease-in-out;
   cursor: pointer;
 }
 
 .hamburger span, .hamburgeropen span {
   display: block;
-  position: absolute;
-  height: .35rem;
-  width: 100%;
+  margin: 0 auto;
+  height: .25rem;
+  width: 1.75rem;
   background: #d3531a;
-  border-radius: .5625rem;
+  border-radius: .075rem;
   opacity: 1;
-  left: 0;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -o-transform: rotate(0deg);
   transform: rotate(0deg);
-  -webkit-transition: .25s ease-in-out;
-  -moz-transition: .25s ease-in-out;
-  -o-transition: .25s ease-in-out;
-  transition: .25s ease-in-out;
+  -webkit-transition: .15s ease-in-out;
+  -moz-transition: .15s ease-in-out;
+  -o-transition: .15s ease-in-out;
+  transition: .15s ease-in-out;
 }
 
 .hamburger span:nth-child(1), .hamburgeropen span:nth-child(1) {
-  top: 0;
   -webkit-transform-origin: left center;
   -moz-transform-origin: left center;
   -o-transform-origin: left center;
@@ -47,7 +45,7 @@
 }
 
 .hamburger span:nth-child(2), .hamburgeropen span:nth-child(2) {
-  top: .7rem;
+  margin-top: .35rem;
   -webkit-transform-origin: left center;
   -moz-transform-origin: left center;
   -o-transform-origin: left center;
@@ -55,7 +53,7 @@
 }
 
 .hamburger span:nth-child(3), .hamburgeropen span:nth-child(3) {
-  top: 1.4rem;
+  margin-top: .35rem;
   -webkit-transform-origin: left center;
   -moz-transform-origin: left center;
   -o-transform-origin: left center;
@@ -63,16 +61,15 @@
 }
 
 .hamburgeropen span:nth-child(1) {
+  margin: 0 auto;
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
-  top: 0rem;
-  left: 0;
 }
 
 .hamburgeropen span:nth-child(2) {
-  width: 0%;
+  width: 0;
   opacity: 0;
 }
 
@@ -81,6 +78,4 @@
   -moz-transform: rotate(-45deg);
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
-  top: 1.4rem;
-  left: 0;
 }
