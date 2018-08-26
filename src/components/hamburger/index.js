@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import './index.scss'
 class Hamburger extends Component {
   constructor( props ) {
     super( props )
