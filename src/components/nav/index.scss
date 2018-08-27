@@ -1,26 +1,37 @@
 @import '../../styles/_vars';
 
 nav {
+  cursor: pointer;
+  text-transform: uppercase;
   background: $main-white;
-  visibility: hidden;
-  margin-left: -50rem;
+  display: none;
+  padding: 1rem 1rem 1rem 2rem;
 }
 
 .hamburgeropen ~ nav {
   height: 100%;
-  visibility: visible;
   margin-left: 0;
+  display: block;
 }
 
-html span {
-  display: block !important;
+nav p {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: $main-grey;
 }
 
-ul {
+nav li {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: $main-red;
+  font-style: italic;
+}
+
+nav ul {
   display: none;
 }
 
-.true + ul {
+nav .true + ul {
   display: block;
-  background: purple;
+  color: $main-red;
 }

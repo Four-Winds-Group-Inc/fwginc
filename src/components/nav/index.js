@@ -35,29 +35,29 @@ class NavContainer extends Component {
 
     return (
       <nav>
-        <span onClick={this.clickHandler}>{nodes[ 0 ].props.node.name}</span>
+        <p onClick={this.clickHandler}>{nodes[ 0 ].props.node.name}</p>
         <ul className='nav'>
           <li>{nodes[ 0 ].props.children[0]}</li>
           <li>{nodes[ 0 ].props.children[1]}</li>
         </ul>
-        <span onClick={this.clickHandler}>{nodes[ 1 ].props.node.name}</span>
+        <p onClick={this.clickHandler}>{nodes[ 1 ].props.node.name}</p>
         <ul className='nav'>
           <li>{nodes[ 1 ].props.children[0]}</li>
           <li>{nodes[ 1 ].props.children[1]}</li>
         </ul>
-        <span onClick={this.clickHandler}>{nodes[ 2 ].props.node.name}</span>
+        <p onClick={this.clickHandler}>{nodes[ 2 ].props.node.name}</p>
         <ul className='nav'>
           <li>{nodes[ 2 ].props.children[0]}</li>
           <li>{nodes[ 2 ].props.children[1]}</li>
           <li>{nodes[ 2 ].props.children[2]}</li>
           <li>{nodes[ 2 ].props.children[3]}</li>
         </ul>
-        <span onClick={this.clickHandler}>{nodes[ 3 ].props.node.name}</span>
+        <p onClick={this.clickHandler}>{nodes[ 3 ].props.node.name}</p>
         <ul className='nav'>
           <li>{nodes[ 3 ].props.children[0]}</li>
           <li>{nodes[ 3 ].props.children[1]}</li>
         </ul>
-        <span onClick={this.clickHandler}>{nodes[ 4 ].props.node.name}</span>
+        <p onClick={this.clickHandler}>{nodes[ 4 ].props.node.name}</p>
         <ul className='nav'>
           <li>{nodes[ 4 ].props.children[0]}</li>
           <li>{nodes[ 4 ].props.children[1]}</li>
