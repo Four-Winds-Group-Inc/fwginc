@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import fwgLogo from '../../assets/fwg_logo.svg'
+import fwgLogo from '../../assets/fwg_logo_1.svg'
 import './index.scss'
 
 class Header extends Component {

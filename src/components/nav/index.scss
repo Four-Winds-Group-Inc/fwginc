@@ -1,9 +1,15 @@
+@import '../../styles/_vars';
+
 nav {
-  display: none;
+  background: $main-white;
+  visibility: hidden;
+  margin-left: -50rem;
 }
 
 .hamburgeropen ~ nav {
-  display: block;
+  height: 100%;
+  visibility: visible;
+  margin-left: 0;
 }
 
 html span {

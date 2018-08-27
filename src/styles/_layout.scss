@@ -1,0 +1,10 @@
+.landing_image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  background-position: center;
+  background-image: url('../assets/server_room.jpg');
+  background-size: cover;
+  z-index: -1;
+}
