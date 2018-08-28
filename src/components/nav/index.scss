@@ -5,7 +5,8 @@ nav {
   text-transform: uppercase;
   background: $main-white;
   display: none;
-  padding: 1rem 1rem 1rem 2rem;
+  padding: 2rem;
+  box-shadow: inset 0 0 .15rem .015rem rgba(0,0,0,.25);
 }
 
 .hamburgeropen ~ nav {
@@ -18,13 +19,15 @@ nav p {
   font-size: 1.8rem;
   font-weight: bold;
   color: $main-grey;
+  padding: .5rem 0;
 }
 
 nav li {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: bold;
   color: $main-red;
   font-style: italic;
+  padding: .5rem .5rem .5rem 1rem;
 }
 
 nav ul {

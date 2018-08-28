@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
-import fwgLogo from '../../assets/fwg_logo_1.svg'
+import fwgLogoLong from '../../assets/fwg_logo_l.png'
 import './index.scss'
 
 class Header extends Component {
   render() {
     return (
       <header>
-        <a href='/'><img src={fwgLogo}/></a>
+        <a href='/'><img src={fwgLogoLong}/></a>
       </header>
 
     )
