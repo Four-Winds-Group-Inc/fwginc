@@ -25,7 +25,7 @@ class App extends Component {
             <Route exact path='/services' component={Services} />
             <Route exact path='/company' component={Company} />
             <Route exact path='/key-industries' component={KeyIndustries} />
-            <Route exact path='/services/turnkey' component={TurnKey} />
+            <Route exact path='/turnkey' component={TurnKey} />
           </div>
         </BrowserRouter>
       </div>

@@ -37,30 +37,30 @@ class NavContainer extends Component {
       <nav>
         <p onClick={this.clickHandler}>{nodes[ 0 ].props.node.name}</p>
         <ul className='nav'>
-          <li>{nodes[ 0 ].props.children[0]}</li>
-          <li>{nodes[ 0 ].props.children[1]}</li>
+          <li><a href='/products'>{nodes[ 0 ].props.children[0]}</a></li>
+          <li><a href='/products'>{nodes[ 0 ].props.children[1]}</a></li>
         </ul>
         <p onClick={this.clickHandler}>{nodes[ 1 ].props.node.name}</p>
         <ul className='nav'>
-          <li>{nodes[ 1 ].props.children[0]}</li>
-          <li>{nodes[ 1 ].props.children[1]}</li>
+          <li><a href='/services'>{nodes[ 1 ].props.children[0]}</a></li>
+          <li><a href='/services'>{nodes[ 1 ].props.children[1]}</a></li>
         </ul>
         <p onClick={this.clickHandler}>{nodes[ 2 ].props.node.name}</p>
         <ul className='nav'>
-          <li>{nodes[ 2 ].props.children[0]}</li>
-          <li>{nodes[ 2 ].props.children[1]}</li>
-          <li>{nodes[ 2 ].props.children[2]}</li>
-          <li>{nodes[ 2 ].props.children[3]}</li>
+          <li><a href='/turnkey'>{nodes[ 2 ].props.children[0]}</a></li>
+          <li><a href='/turnkey'>{nodes[ 2 ].props.children[1]}</a></li>
+          <li><a href='/turnkey'>{nodes[ 2 ].props.children[2]}</a></li>
+          <li><a href='/turnkey'>{nodes[ 2 ].props.children[3]}</a></li>
         </ul>
         <p onClick={this.clickHandler}>{nodes[ 3 ].props.node.name}</p>
         <ul className='nav'>
-          <li>{nodes[ 3 ].props.children[0]}</li>
-          <li>{nodes[ 3 ].props.children[1]}</li>
+          <li><a href='/key-industries'>{nodes[ 3 ].props.children[0]}</a></li>
+          <li><a href='/key-industries'>{nodes[ 3 ].props.children[1]}</a></li>
         </ul>
         <p onClick={this.clickHandler}>{nodes[ 4 ].props.node.name}</p>
         <ul className='nav'>
-          <li>{nodes[ 4 ].props.children[0]}</li>
-          <li>{nodes[ 4 ].props.children[1]}</li>
+          <li><a href='/company'>{nodes[ 4 ].props.children[0]}</a></li>
+          <li><a href='/company'>{nodes[ 4 ].props.children[1]}</a></li>
         </ul>
       </nav>
     )
