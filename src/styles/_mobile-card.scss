@@ -1,4 +1,4 @@
-@import '../../styles/_vars';
+@import './_vars';
 
 .card {
     width: 90%;
@@ -33,7 +33,7 @@
     display: none;
 }
 
-h1, h2 {
+.JSX-WRAP h1, .JSX-WRAP h2 {
     font-family: $title-font;
     font-size: 1.5rem;
     position: absolute;
@@ -41,20 +41,20 @@ h1, h2 {
     left: .4rem;
 }
 
-p, li {
+.JSX-WRAP p, .JSX-WRAP li {
     font-family: $body-font;
     font-size: 1.2rem;
     padding: .125rem 1rem;
     margin-top: 1rem;
 }
 
-span, li::first-letter {
+.JSX-WRAP span, .JSX-WRAP li::first-letter {
     font-family: $body-font;
     font-size: 1.2rem;
     font-weight: bold;
 }
 
-button {
+.JSX-WRAP button {
     font-size: 1.7rem;
     text-align: right;
     padding-right: 1rem;
