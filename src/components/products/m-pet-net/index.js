@@ -22,7 +22,7 @@ class MpetNet extends Component {
           <button onClick={this.clickHandler}> &#8594; </button>
         </div>
         <div className={'card card-content' + toggleClass}>
-          <h2>Features:</h2>
+          <h2>FEATURES</h2>
           <ul>
             <li>Assets — Create, modify, and track any and all of your business's assets.</li>
             <li>Personnel — Track all of your personnel through one easy and concise screen.</li>

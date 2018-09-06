@@ -10,6 +10,7 @@ import KeyIndustries from '../key-industries'
 import TurnKey from '../services/turnkey'
 import Hamburger from '../hamburger'
 import '../../styles/main.scss'
+import './index.scss'
 
 class App extends Component {
   render() {
