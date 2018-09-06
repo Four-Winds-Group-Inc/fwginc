@@ -3,12 +3,14 @@
 .card {
     width: 90%;
     margin: 5%;
-    padding: 1rem;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-.card-container {
-    padding: 2px 16px;
+.card-top {
+    width: 100%;
+    height: 10rem;
+    background-color: $main-red;
+    position: relative;
 }
 
 .card-content {
@@ -16,7 +18,8 @@
 }
 
 .card-content {
-    margin-top: 0;
+    top: 0;
+    padding: 1rem;
  }
 
 .cardopen {
@@ -24,12 +27,22 @@
 }
 
 h1 {
-    margin-bottom: 5%;
+    color: $main-white;
+    $title-font: 'Cantata One';
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 0;
+    left: .4rem;
 }
 
-p, h1, li, h2 {
+p, li, h2 {
     font-family: $body-font;
     font-size: 1.2rem;
+}
+
+p {
+    margin-top: 1rem;
+    padding: .125rem 1rem;
 }
 
 li, h2 {

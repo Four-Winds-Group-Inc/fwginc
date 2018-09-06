@@ -16,7 +16,7 @@ class MpetWeb extends Component {
       <div className='JSX-WRAP'>
         <div className={'card' + toggleClass}>
           <div className='card-container'>
-            <h1>M-PET.WEB</h1>
+            <div className='card-top'><h1>M-PET.WEB</h1></div>
             <p>A web-based solution that will run over the internet connection that links into the same database as the desktop. Giving your employees the advantage of a web-based system for many of the key features of our system without needing a full install on all workstations.</p>
           </div>
           <button onClick={this.clickHandler}> &#8594; </button>

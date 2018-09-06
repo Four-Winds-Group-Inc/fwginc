@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import '../index.scss'
+import './../index.scss'
 
 class Hosted extends Component {
   constructor(props){
@@ -18,9 +18,7 @@ class Hosted extends Component {
         <div className={'initial card' + toggleClass}>
           <div className='card-container'>
             <h1>HOSTED SOLUTIONS</h1>
-
-            <p>We've got you covered.</p>
-            
+            <p>We've got you covered.</p>      
             <p>Think that setting up and configuring a server just to be able to use our software is too much of a hassle?</p>
           </div>
           <button onClick={this.clickHandler}> &#8594; </button>

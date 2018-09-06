@@ -16,7 +16,7 @@ class MpetNet extends Component {
       <div className='JSX-WRAP'>
         <div className={'initial card' + toggleClass}>
           <div className='card-container'>
-            <h1>M-PET.NET</h1>
+            <div className='card-top'><h1>M-PET.NET</h1></div>
             <p>Maintenance Productivity Enhancement Tool designed for superior performance in every environment from manufacturing to facilities and municipality environments.</p>
           </div>
           <button onClick={this.clickHandler}> &#8594; </button>
