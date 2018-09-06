@@ -1,0 +1,40 @@
+@import '../../styles/_vars';
+
+.card {
+    width: 90%;
+    margin: 5%;
+    padding: 1rem;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-container {
+    padding: 2px 16px;
+}
+
+.card-content {
+   display: none;
+}
+
+.cardopen {
+    display: none;
+}
+
+h1 {
+    margin-bottom: 5%;
+}
+
+p, h1 {
+    font-family: $body-font;
+    font-size: 1.2rem;
+}
+
+button {
+    font-size: 1.7rem;
+    text-align: right;
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+
+
+
+  

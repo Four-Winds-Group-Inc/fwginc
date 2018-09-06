@@ -5,7 +5,6 @@ class Landing extends Component {
   render() {
     return (
       <div className='landing_image'>
-        Testing.
       </div>
     )
   }
