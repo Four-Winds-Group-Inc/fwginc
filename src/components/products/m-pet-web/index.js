@@ -21,7 +21,7 @@ class MpetWeb extends Component {
           </div>
           <button onClick={this.clickHandler}> &#8594; </button>
         </div>
-        <div className={' card card-content' + toggleClass}>
+        <div className={'card card-content' + toggleClass}>
           <div className='back-card-top'><h2>CLIENT FEATURES</h2></div>
           <ul>
             <li>Submit a new job request with the same look and feel of the desktop application.</li>

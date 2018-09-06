@@ -26,11 +26,9 @@
    display: none;
 }
 
-.card-content {
-    top: 0;
-    padding: 1rem;
- }
-
+.card-contentopen p {
+    padding: .125rem 1rem;
+}
 .cardopen {
     display: none;
 }
@@ -48,10 +46,6 @@ p, li {
     font-size: 1.2rem;
     padding: .125rem 1rem;
     margin-top: 1rem;
-}
-
-li {
-    padding-bottom: 1rem;
 }
 
 span, li::first-letter {
