@@ -16,7 +16,7 @@ class Programming extends Component {
       <div className='JSX-WRAP'>
         <div className={'card' + toggleClass}>
           <div className='card-container'>
-            <div className='card-top'><h1>Custom Programming</h1></div>
+            <div className='card-top'><h1>CUSTOM PROGRAMMING</h1></div>
             <p>Four Winds Group doesn't focus all our resources on M-PET, we can create custom, made-to-order applications as well.</p>
           </div>
           <button onClick={this.clickHandler}> &#8594; </button>

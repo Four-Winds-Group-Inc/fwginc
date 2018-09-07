@@ -86,4 +86,17 @@
     margin-top: 1rem;
 }
 
-  
+.staff-card-top {
+    width: 100%;
+    height: 3rem;
+    background-color: $main-red;
+    position: relative;
+    color: $main-white;
+}
+
+.staff-card-content {
+    padding: 1rem;
+    width: 90%;
+    margin: 5%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
