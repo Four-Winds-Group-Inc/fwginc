@@ -4,6 +4,7 @@ class History extends Component {
   render() {
     return (
       <div>
+        <div className='staff-card-top'><h1>HISTORY</h1></div>
         <div className='staff-card'>
           <span>Beginnings</span>
           <p>In the mid 1980s Four Winds Enterprises, a large privately owned transportation company based in San Diego, California, was experiencing the pains of successful expansion of their core business. A growing fleet of equipment, scattered all around the world needed systematic management of maintenance records to meet safety, regulation and budget mandates.</p>
