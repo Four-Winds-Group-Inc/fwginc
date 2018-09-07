@@ -11,7 +11,6 @@ In your terminal:
 - npm start
 - Your application should now be running on http://localhost:1234
 
-#### Progress notes as of Wednesday, August 15th, 2018
 
 - IN PROCESS: Mobile first design.
 - TODO: Browser design.
