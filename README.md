@@ -13,7 +13,5 @@ In your terminal:
 
 #### Progress notes as of Wednesday, August 15th, 2018
 
-- Browser router implemented, navigation possible.
-- Initial styling: base | layout | sassy beginnings
-- TODO: Research and plan basic page layout and sass | scss plan.
-- TODO: Mobile first design.
+- IN PROCESS: Mobile first design.
+- TODO: Browser design.
