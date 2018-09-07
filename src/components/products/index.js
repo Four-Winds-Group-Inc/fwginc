@@ -5,9 +5,9 @@ import MpetWeb from './m-pet-web'
 class Products extends Component {
   render() {
     return (
-      <div>
-        <MpetNet/>
-        <MpetWeb />
+      <div className='card-container'>
+        <div><MpetNet /></div>
+        <div><MpetWeb /></div>
       </div>
 
     )

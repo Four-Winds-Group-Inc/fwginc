@@ -10,3 +10,7 @@ In your terminal:
 - npm i (on level of your package.json)
 - npm start
 - Your application should now be running on http://localhost:1234
+
+
+- IN PROCESS: Mobile first design.
+- TODO: Browser design.

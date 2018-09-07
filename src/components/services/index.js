@@ -6,8 +6,8 @@ class Services extends Component {
   render() {
     return (
       <div>
-        <Hosted />
-        <Programming />
+        <div><Hosted /></div>
+        <div><Programming /></div>
       </div>
     )
   }

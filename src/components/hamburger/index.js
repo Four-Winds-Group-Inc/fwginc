@@ -12,7 +12,6 @@ class Hamburger extends Component {
   }
   render() {
     let toggleClass = this.state.open ? 'open' : ''
-    console.log(this.state, 'This is great.')
     return (
       <div onClick={this.clickHandler} className={'hamburger' + toggleClass}>
         <span></span>
