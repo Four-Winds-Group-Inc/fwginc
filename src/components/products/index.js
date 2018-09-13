@@ -17,8 +17,8 @@ class Products extends Component {
     console.log(toggleClass)
     return (
       <div className='card-container'>
-        <div className={'product-one' + toggleClass}><MpetNet /></div>
-        <div className={'product-two' + toggleClass}><MpetWeb /></div>
+        <div className={'tab-one' + toggleClass}><MpetNet /></div>
+        <div className={'tab-two' + toggleClass}><MpetWeb /></div>
         <button button onClick={this.clickHandler} className={'arrow-down' + toggleClass}> &#8595; </button>
         <button button onClick={this.clickHandler} className={'arrow-up' + toggleClass}> &#8593; </button>
       </div>
