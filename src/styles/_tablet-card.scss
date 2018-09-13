@@ -1,0 +1,44 @@
+@import './_vars';
+
+@media (min-width: 601px) and (max-width: 950px) {
+    .JSX-WRAP {
+        width: 100%;
+    }
+    .JSX-WRAP h1 {
+        font-size: 1.5rem;
+        margin-bottom: .5rem;
+    }
+    .JSX-WRAP button {
+        display: none;
+    }
+    .product-two {
+        display: none;
+    }
+    
+    .card-container {
+        padding: 1rem;
+        p {
+        font-size: 1.3rem;
+        color: $main-red;
+        }
+    }
+    .card-content {
+        display: block;
+        padding: 0 1rem 0 1rem;
+    }
+    .JSX-WRAP span {
+        font-family: $body-font;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .back-card-top h2 {
+        margin-bottom: .5rem;
+        font-size: 1.5rem;
+    }
+    .arrow-down {
+        display: block;
+        font-size: 2.5rem;
+        text-align: center;
+        padding: 2rem 0 2rem 0; 
+    }
+}
