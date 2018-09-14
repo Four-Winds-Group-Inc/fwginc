@@ -13,6 +13,7 @@ import '../../styles/main.scss'
 
 class App extends Component {
   render() {
+    const renderIf = (test, component) => test ? component : undefined
     return (
       <div>
         <Header />
@@ -28,6 +29,7 @@ class App extends Component {
             <Route exact path='/turnkey' component={TurnKey} />
           </div>
         </BrowserRouter>
+        {renderIf(location.pathname !== '/', <div className='sticky-footer'></div>)}
       </div>
 
     )
