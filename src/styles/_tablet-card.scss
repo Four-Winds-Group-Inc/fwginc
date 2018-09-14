@@ -52,6 +52,9 @@
 
     // SERVICES SPECIFIC TABLET STYLES
 
-    .hosted.card-top {
+    .hosted.card-content p:first-of-type, .let-us   {
+        font-size: 1.3rem;
+        color: $main-red;
+        padding: 1rem 0 0 0;
     }
 }

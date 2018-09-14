@@ -14,9 +14,8 @@ class Products extends Component {
   }
   render() {
     let toggleClass = this.state.toggle ? 'toggle' : ''
-    console.log(toggleClass)
     return (
-      <div className='card-container'>
+      <div className='position'>
         <div className={'tab-one' + toggleClass}><MpetNet /></div>
         <div className={'tab-two' + toggleClass}><MpetWeb /></div>
         <button button onClick={this.clickHandler} className={'arrow-down' + toggleClass}> &#8595; </button>

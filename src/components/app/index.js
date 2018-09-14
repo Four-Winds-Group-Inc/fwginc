@@ -29,7 +29,7 @@ class App extends Component {
             <Route exact path='/turnkey' component={TurnKey} />
           </div>
         </BrowserRouter>
-        {renderIf(location.pathname !== '/', <div className='sticky-footer'></div>)}
+        <div className='footer'></div>
       </div>
 
     )
