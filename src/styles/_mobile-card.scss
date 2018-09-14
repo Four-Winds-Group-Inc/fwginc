@@ -31,15 +31,11 @@
         color: $main-white;
     }
 
-    .card-content {
-    display: none;
+    .card-content, .cardopen, .arrow-down, .arrow-up, .arrow-downtoggle, .arrow-uptoggle {
+        display: none;
     }
-
     .card-contentopen p {
         padding: .125rem 1rem;
-    }
-    .cardopen {
-        display: none;
     }
 
     .JSX-WRAP h1, .JSX-WRAP h2, .history-card-top h1 {
@@ -122,9 +118,5 @@
 
     .history-card p {
         margin-top: 1rem;
-    }
-
-    .arrow-down, .arrow-up, .arrow-downtoggle, .arrow-uptoggle {
-        display: none;
     }
 }

@@ -8,16 +8,7 @@
         font-size: 1.5rem;
         margin-bottom: .5rem;
     }
-    .JSX-WRAP button {
-        display: none;
-    }
-    .tab-two {
-        display: none;
-    }
-    .tab-onetoggle {
-        display: none;
-    }
-    .tab-onetoggle {
+    .JSX-WRAP button, .tab-two, .tab-onetoggle, .arrow-downtoggle, .arrow-up{
         display: none;
     }
     .card-container {
@@ -46,9 +37,6 @@
         text-align: center;
         margin: 2rem 0 2rem 0;
     }
-    .arrow-downtoggle, .arrow-up {
-        display: none;
-    }
 
     // SERVICES SPECIFIC TABLET STYLES
 
@@ -57,7 +45,7 @@
         color: $main-red;
         padding: 1rem 0 0 0;
     }
-    .let-us {
+    // .let-us {
 
-    }
+    // }
 }
