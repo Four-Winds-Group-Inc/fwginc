@@ -13,11 +13,11 @@ class Hamburger extends Component {
   render() {
     let toggleClass = this.state.open ? 'open' : ''
     return (
-        <div onClick={this.clickHandler} className={'hamburger' + toggleClass}>
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
+      <div onClick={this.clickHandler} className={'hamburger' + toggleClass}>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     )
   }
 }

@@ -8,6 +8,7 @@ class TurnKey extends Component {
   render() {
     return (
       <div>
+        <h1 className='combined-header'>TURNKEY SERVICES</h1>
         <AboutTurkney />
         <Management />
         <IT />

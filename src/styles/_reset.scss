@@ -14,13 +14,12 @@
     box-sizing: border-box;
   }
 
-  html {
+  html, body {
   position: relative;
   head,link,script { display: none; }
-  body { position: relative; }
+  body { position: relative;}
   span, em, strong, i { display: inline }
 }
-  
   input, textarea {
     &:focus {
       outline: none;

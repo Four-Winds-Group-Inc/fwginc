@@ -15,21 +15,23 @@ class App extends Component {
   render() {
     const renderIf = (test, component) => test ? component : undefined
     return (
-      <div>
+      <div className='app-JSX'>
         <Header />
-        <Hamburger />
-        <Nav />
-        <BrowserRouter>
-          <div>
-            <Route exact path='/' component={Landing} />
-            <Route exact path='/products' component={Products} />
-            <Route exact path='/services' component={Services} />
-            <Route exact path='/company' component={Company} />
-            <Route exact path='/key-industries' component={KeyIndustries} />
-            <Route exact path='/turnkey' component={TurnKey} />
-          </div>
-        </BrowserRouter>
-        <div className='footer'></div>
+        <div className='app'>
+          <Hamburger />
+          <Nav />
+          <BrowserRouter>
+            <div>
+              <Route exact path='/' component={Landing} />
+              <Route exact path='/products' component={Products} />
+              <Route exact path='/services' component={Services} />
+              <Route exact path='/company' component={Company} />
+              <Route exact path='/key-industries' component={KeyIndustries} />
+              <Route exact path='/turnkey' component={TurnKey} />
+            </div>
+          </BrowserRouter>
+          <div className='footer'></div>
+        </div>
       </div>
 
     )
