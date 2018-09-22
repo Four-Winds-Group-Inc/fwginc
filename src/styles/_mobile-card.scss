@@ -1,123 +1,122 @@
 @import './_vars';
 
-.card {
-    width: 90%;
-    margin: 5%;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
+@media (max-width: 600px) {
+    .card {
+        width: 90%;
+        margin: 5%;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
 
-.card-top {
-    width: 100%;
-    height: 10rem;
-    background-color: $main-red;
-    color: $main-white;
-    position: relative;
-}
+    .card-top {
+        width: 100%;
+        height: 10rem;
+        background-color: $main-red;
+        color: $main-white;
+        position: relative;
+    }
 
-.turnkey-card-top {
-    height: 6rem;
-    width: 100%;
-    background-color: $main-red;
-    color: $main-white;
-    position: relative;
-}
+    .turnkey-card-top {
+        height: 6rem;
+        width: 100%;
+        background-color: $main-red;
+        color: $main-white;
+        position: relative;
+    }
 
-.back-card-top {
-    width: 100%;
-    height: 3rem;
-    background-color: $main-red;
-    position: relative;
-    color: $main-white;
-}
+    .back-card-top {
+        width: 100%;
+        height: 3rem;
+        background-color: $main-red;
+        position: relative;
+        color: $main-white;
+    }
 
-.card-content {
-   display: none;
-}
+    .card-content, .cardopen, .arrow-down, .arrow-up, .arrow-downtoggle, .arrow-uptoggle {
+        display: none;
+    }
+    .card-contentopen p {
+        padding: .125rem 1rem;
+    }
 
-.card-contentopen p {
-    padding: .125rem 1rem;
-}
-.cardopen {
-    display: none;
-}
+    .JSX-WRAP h1, .JSX-WRAP h2, .history-card-top h1 {
+        font-family: $title-font;
+        font-size: 1.5rem;
+        position: absolute;
+        bottom: 0;
+        left: .4rem;
+    }
 
-.JSX-WRAP h1, .JSX-WRAP h2, .history-card-top h1 {
-    font-family: $title-font;
-    font-size: 1.5rem;
-    position: absolute;
-    bottom: 0;
-    left: .4rem;
-}
+    .JSX-WRAP p, .JSX-WRAP li {
+        font-family: $body-font;
+        font-size: 1.2rem;
+        padding: .125rem 1rem;
+        margin-top: 1rem;
+        text-decoration: none;
+    }
 
-.JSX-WRAP p, .JSX-WRAP li {
-    font-family: $body-font;
-    font-size: 1.2rem;
-    padding: .125rem 1rem;
-    margin-top: 1rem;
-}
+    .JSX-WRAP span, .JSX-WRAP li::first-letter, .history-card span {
+        font-family: $body-font;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
 
-.JSX-WRAP span, .JSX-WRAP li::first-letter, .history-card span {
-    font-family: $body-font;
-    font-size: 1.2rem;
-    font-weight: bold;
-}
+    .JSX-WRAP button {
+        font-size: 1.7rem;
+        text-align: right;
+        padding-right: 1rem;
+        padding-top: 1rem;
+    }
 
-.JSX-WRAP button {
-    font-size: 1.7rem;
-    text-align: right;
-    padding-right: 1rem;
-    padding-top: 1rem;
-}
+    .turnkey-card {
+        width: 100%;
+    }
 
-.turnkey-card {
-    width: 100%;
-}
+    .turnkey-card h2 {
+        font-family: $title-font;
+        font-size: 1.5rem;
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
 
-.turnkey-card h2 {
-    font-family: $title-font;
-    font-size: 1.5rem;
-    margin-left: 1rem;
-    margin-top: 1rem;
-}
+    .turnkey-card p {
+        width: 95%;
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
 
-.turnkey-card p {
-    width: 95%;
-    margin-left: 1rem;
-    margin-top: 1rem;
-}
+    .staff-card-top, .history-card-top {
+        width: 90%;
+        margin-left: 5%;
+        height: 3rem;
+        background-color: $main-red;
+        position: relative;
+        color: $main-white;
+    }
 
-.staff-card-top, .history-card-top {
-    width: 90%;
-    margin-left: 5%;
-    height: 3rem;
-    background-color: $main-red;
-    position: relative;
-    color: $main-white;
-}
+    .staff-card-content {
+        padding: 1rem;
+        width: 90%;
+        margin: 5%;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
 
-.staff-card-content {
-    padding: 1rem;
-    width: 90%;
-    margin: 5%;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
+    .staff-card-content p {
+        text-align: right;
+        margin: 0;
+    }
 
-.staff-card-content p {
-    text-align: right;
-    margin: 0;
-}
+    .staff-card-content h4 {
+        margin-bottom: 1rem;
+    }
 
-.staff-card-content h4 {
-    margin-bottom: 1rem;
-}
+    .history-card {
+        width: 90%;
+        margin: 5%;
+        padding: 1rem;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
 
-.history-card {
-    width: 90%;
-    margin: 5%;
-    padding: 1rem;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-.history-card p {
-    margin-top: 1rem;
+    .history-card p {
+        margin-top: 1rem;
+    }
 }

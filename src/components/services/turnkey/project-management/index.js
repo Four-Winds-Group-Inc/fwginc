@@ -17,7 +17,7 @@ class ProjectManagement extends Component {
         <div className={'initial card' + toggleClass}>
           <div className='card-container'>
             <div className='turnkey-card-top'>
-              <h1>PROJECT MANAGEMENT</h1></div>
+              <h2>PROJECT MANAGEMENT</h2></div>
           </div>
           <button onClick={this.clickHandler}> &#8594; </button>
         </div>

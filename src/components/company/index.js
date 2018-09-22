@@ -6,8 +6,8 @@ class Company extends Component {
   render() {
     return (
       <div>
-        <Staff />
-        <History />
+        <div><Staff /></div>
+        <div><History /></div>
       </div>
 
     )

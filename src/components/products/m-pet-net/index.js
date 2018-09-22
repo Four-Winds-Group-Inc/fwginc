@@ -14,7 +14,7 @@ class MpetNet extends Component {
     let toggleClass = this.state.open ? 'open' : ''
     return (
       <div className='JSX-WRAP'>
-        <div className={'initial card' + toggleClass}>
+        <div className={'card' + toggleClass}>
           <div className='card-container'>
             <div className='card-top'><h1>M-PET.NET</h1></div>
             <p>Maintenance Productivity Enhancement Tool designed for superior performance in every environment from manufacturing to facilities and municipality environments.</p>

@@ -6,8 +6,8 @@ class KeyIndustries extends Component {
   render() {
     return (
       <div>
-        <Transportation />
-        <Hospitality />
+        <div><Transportation /></div>
+        <div><Hospitality /></div>
       </div>
 
     )
