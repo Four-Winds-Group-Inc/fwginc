@@ -6,17 +6,21 @@
     }
     .JSX-WRAP h1 {
         font-size: 1.5rem;
+        width: 80%;
         margin-bottom: 1rem;
         position: absolute;
         bottom: 0;
     }
+    p, li, ul, span {
+        font-size: 1.2rem;
+    }
     .JSX-WRAP button {
         display: none;
     }
-    .card-container {
+    .card-container, .turnkey-card {
         padding: 1rem 1rem 0 1rem;
+        width: 80%;
         p {
-        font-size: 1.3rem;
         color: $main-red;
         margin-bottom: 1rem;
         }
@@ -24,10 +28,10 @@
     .card-content {
         display: block;
         padding: 0 1rem 0 1rem;
+        width: 80%;
     }
     .JSX-WRAP span {
         font-family: $body-font;
-        font-size: 1rem;
         font-weight: bold;
     }
 
@@ -37,12 +41,9 @@
         position: relative;
     }
 
-    .back-card-top h2 {
+    .back-card-top h2, h2 {
         margin: .5rem 0 .5rem 0;
-        font-size: 1rem;
-    }
-    .card-content li::first-letter {
-        font-weight: bold;
+        font-size: 1.3rem;
     }
 
     li {
@@ -57,7 +58,7 @@
     }
 
     .staff-card-container, .history-card, .history-card-top {
-        width: 90%;
+        width: 70%;
         margin-left: 5%;
     }
     .staff-card-content {
@@ -90,7 +91,7 @@
     .history-card span {
         font-size: 1.5rem;
     }
-    .history-card p {
+    p {
         margin: 1rem 0 1rem 0;
     }
 }

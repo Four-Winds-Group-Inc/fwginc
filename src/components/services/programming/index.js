@@ -23,9 +23,9 @@ class Programming extends Component {
         </div>
         <div className={'card card-content' + toggleClass}>
           <p>Maybe you want a website that you can use from multiple workstations to access information on a central database.</p>
-          <p><span>We can do that.</span></p>
+          <p><span className='special-span'>We can do that.</span></p>
           <p>Maybe you want an application on a smartphone or tablet that you can use out in the field.</p>
-          <p><span>We can do that, too.</span></p>
+          <p><span className='special-span'>We can do that, too.</span></p>
           <p>If you have an existing system in place that you can't change but you'd like to use M-PET, let our IT staff come up with a plan. We will create a custom interface to import the information from your existing systems into M-PET where subsequent actions will take place.</p>
 
           <p>This allows you to continue using your legacy systems while taking advantage of M-PET's great features and benefits.</p>

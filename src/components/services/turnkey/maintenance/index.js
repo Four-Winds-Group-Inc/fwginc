@@ -17,7 +17,7 @@ class Maintenance extends Component {
         <div className={'initial card' + toggleClass}>
           <div className='card-container'>
             <div className='turnkey-card-top'>
-              <h1>MAINTENANCE TASKS</h1></div>
+              <h2>MAINTENANCE TASKS</h2></div>
           </div>
           <button onClick={this.clickHandler}> &#8594; </button>
         </div>

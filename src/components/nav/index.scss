@@ -14,7 +14,7 @@
     display: block;
   }
 
-  nav a {
+  .nodes {
     color: $main-red;
     font-size: 1.8rem;
     font-weight: bold;
@@ -28,7 +28,8 @@
     cursor: pointer;
     text-transform: uppercase;
     background: $main-white;
-    padding: 2rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
     width: 10rem;
     display: block;
     position: fixed;
@@ -38,13 +39,12 @@
     left: 0;
   }
 
-  nav a {
+ .nodes {
     font-size: 1rem;
     font-weight: bold;
     color: $main-grey;
     padding: .5rem 0;
   }
-
   .app  {
     margin-left: 11rem;
   }
