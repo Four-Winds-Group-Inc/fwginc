@@ -9,8 +9,4 @@ In your terminal:
 - npm install -g parcel-bundler (we are currently using Parcel as our no configuration bundler rather than webpack)
 - npm i (on level of your package.json)
 - npm start
-- Your application should now be running on http://localhost:1234
-
-
-- IN PROCESS: Mobile first design.
-- TODO: Browser design.
+- Your application should now be running on http://localhost:1234 (unless otherwise directed)
