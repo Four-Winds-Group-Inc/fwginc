@@ -24,15 +24,9 @@ class Staff extends Component {
             <p>619.921-5845</p>
           </div>
           <div className='staff-card-content'>
-            <h3>GREGORY DUKES</h3>
-            <h4>Developer</h4>
-            <p>dukesg@fwginc.com</p>
-            <p>206.618.2432</p>
-          </div>
-          <div className='staff-card-content'>
-            <h3>RON DUNPHY</h3>
-            <h4>Developer</h4>
-            <p>dunphyr@fwginc.com</p>
+            <h3>CHESTER WEST</h3>
+            <h4>Software Engineer</h4>
+            {/* <p>placeholder@fwginc.com</p> */}
             <p>206.515.3457</p>
           </div>
         </div>

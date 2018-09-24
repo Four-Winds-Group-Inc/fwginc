@@ -14,6 +14,13 @@ class History extends Component {
           <span>Transitions</span>
           <p>In 1989, Four Winds Group, Inc (FWG) formed. At the time, with the smaller PC and PC server technology becoming the niche computers of choice, FWG found a company on the east coast that offered
         PC based maintenance management software of the USA and was now able to provide a Disk Operating System (DOS) based maintenance management solution. This company's products went from DOS to the first generation Windows and finally to the Windows 95 based application environment, the product being called, 'MPET'. In 2005 FWG was able to purchase the software business in order to offer more flexibility to our growing list of clients. Afterwards, an intense effort commenced to create a new product under the .NET development environment. After two years, M-PET.NET 1.0.0.0 was delivered. This platform is continually being improved and enhanced to ensure it is delivering the promised maintenance management information. With a desktop and web application available, M-PET.NET offers capabilities and functions not duplicated nor available from other companies in this competitive marketplace. Development based on customer feedback, needs, and technological advancements, will ensure that M-PET.NET will continue to grow. Our focus on constumer satisfaction will ensure your system will remain both relevant and current.</p></div>
+        <div className='JSX-WRAP'>
+          <div className='staff-card-container'>
+            <div className='staff-card-top'><h1>KEY PARTNERS</h1></div>
+            <p className='partner-card'>Wilson Hospitality Management Company (WHM)</p>
+            <p className='partner-card'>Premier Maintenance Consultant's Inc. (PMCI)</p>
+          </div>
+        </div>
       </div>
     )
   }
