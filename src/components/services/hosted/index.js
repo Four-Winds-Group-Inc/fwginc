@@ -26,7 +26,7 @@ class Hosted extends Component {
           <span>Let us host it for you!</span>
           <p>With our high-end servers, we can handle all of your data safely and remotely. Have access to your data whenever you want, 24 hours a day, 7 days a week, 365 days a year. With business class security and automated daily backups, you can rest assured that your data is safe with us.</p>
           <h2>KEY FEATURES</h2>
-          <ul>
+          <ul className='key-features'>
             <li>Regular backups to external devices.</li>
             <li>Business-class security to protect your data.</li>
             <li>Access your data anytime you want.</li>
