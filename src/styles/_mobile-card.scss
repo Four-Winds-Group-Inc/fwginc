@@ -14,6 +14,9 @@
         color: $main-white;
         position: relative;
     }
+    .hamburgeropen + .JSX-WRAP {
+        position: absolute;
+    }
 
     .turnkey-card-top {
         height: 6rem;
