@@ -12,7 +12,7 @@
         bottom: 0;
     }
     p, li, ul, span {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
     .JSX-WRAP button {
         display: none;
@@ -26,13 +26,26 @@
         }
     }
     .card-content {
+        background-color: $comp-grey;
         display: block;
-        padding: 0 1rem 0 1rem;
-        width: 80%;
+        padding: 1rem;
+        width: 100;
     }
+
+    .card-content li:nth-child(odd) {
+        color: $main-blue;
+        width: 95%;
+        margin-left: 2.5%;
+    }
+
+    .card-content li:nth-child(even) {
+        color: $main-grey;
+        width: 95%;
+        margin-left: 2.5%;
+    }
+
     .JSX-WRAP span {
-        font-family: $body-font;
-        font-weight: bold;
+        font-weight: 530;
     }
 
     .card-top {
@@ -93,5 +106,13 @@
     }
     p {
         margin: 1rem 0 1rem 0;
+    }
+}
+
+//PC specific content styles
+
+@media (min-width: 950px) {
+    .card-content {
+        width: 87%;
     }
 }

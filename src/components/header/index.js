@@ -5,9 +5,11 @@ import './index.scss'
 class Header extends Component {
   render() {
     return (
-      <header>
-        <a href='/'><img src={fwgLogoLong}/></a>
-      </header>
+      <div className='headerClass'>
+        <header>
+          <a href='/'><img src={fwgLogoLong}/></a>
+        </header>
+      </div>
 
     )
   }

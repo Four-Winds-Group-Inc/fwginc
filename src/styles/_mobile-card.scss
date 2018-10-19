@@ -31,6 +31,12 @@
         color: $main-white;
     }
 
+    .hosted-back-card-top {
+        width: 100%;
+        height: 2rem;
+        position: relative;
+    }
+
     .card-content, .cardopen, .arrow-down, .arrow-up, .arrow-downtoggle, .arrow-uptoggle {
         display: none;
     }

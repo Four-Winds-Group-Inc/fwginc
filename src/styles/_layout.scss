@@ -9,10 +9,12 @@
   z-index: -1;
 }
 
-.footer {
-  display: absolute;
+@media (max-width: 950px) {
+  .footer {
   height: 5rem;
-}
+  background-color: $main-red;
+  }
+}// 
 
 .contact-a {
   font-size: .8rem;
@@ -23,7 +25,11 @@
   font-size: .8rem;
   margin: 0;
 }
-
+.contact-c {
+  font-size: 1rem;
+  font-weight: bold;
+  color: $main-red;
+}
 ul h2 {
   font-size: 1rem;
   font-weight: bold;

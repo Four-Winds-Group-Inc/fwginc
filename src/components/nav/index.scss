@@ -5,6 +5,8 @@
     cursor: pointer;
     text-transform: uppercase;
     background: $main-white;
+    position: fixed;
+    z-index: 9;
     display: none;
     padding: 2rem;
     box-shadow: inset 0 0 .15rem .015rem rgba(0,0,0,.25);
@@ -27,13 +29,13 @@
   nav {
     cursor: pointer;
     text-transform: uppercase;
+    height: 100%;
     background: $main-white;
     padding-top: 2rem;
     padding-left: 1rem;
-    width: 10rem;
+    width: 13%;
     display: block;
     position: fixed;
-    height: 100%;
     z-index: 1;
     top: 4rem;
     left: 0;

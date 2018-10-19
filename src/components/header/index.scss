@@ -1,11 +1,15 @@
 header {
   background: #FFFFFF;
   box-shadow: 0 0 .15rem .015rem rgba(0,0,0,.25);
-  z-index: 0;
+  z-index: 9;
   display: block;
+  position: fixed;
 }
-
+.headerClass {
+  height: 3rem;
+  margin-bottom: 1rem;
+}
 img {
-  width: 19rem;
+  width: 23rem;
   padding: 1.2rem 2rem;
 }
