@@ -9,9 +9,12 @@
   z-index: -1;
 }
 
-.footer {
-  display: absolute;
+@media (max-width: 950px) {
+  .footer {
+  display: sticky;
   height: 5rem;
+  background-color: $main-red;
+  }
 }
 
 .contact-a {
@@ -32,9 +35,3 @@ ul h2 {
   font-size: 1rem;
   font-weight: bold;
 }
-
-// .key-features {
-//   background-color: $main-blue;
-//   opacity: .8;
-//   width: 50%;
-// }
